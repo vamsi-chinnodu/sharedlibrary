@@ -4,5 +4,5 @@ def gitDownload(repo)
 }
 def buildartfact()
 {
-   sh 'mvn package'
+   sh "mvn package"
 }
